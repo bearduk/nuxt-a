@@ -1,18 +1,10 @@
 <template>
   <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        nuxt-a
-      </h1>
-      <h2 class="subtitle">
-        My bee&#39;s knees Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-    </div>
+
+    <a href="/users">Normal hard link to /users route</a>
+    <p>...and here is the nuxt link that won't reload the page - </p>
+    <nuxt-link to="/users"> Nuxt-link to /users</nuxt-link>
+
   </section>
 </template>
 
