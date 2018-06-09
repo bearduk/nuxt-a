@@ -1,11 +1,15 @@
 <template>
   <div>
-      <header>Users header from Layout users.vue</header>
+      <header><h1>Users header from Layout users.vue</h1></header>
     <nuxt/>
   </div>
 </template>
 
 <style>
+header {
+    padding: 1rem;
+    background: orange;
+}
 html
 {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
