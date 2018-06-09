@@ -31,4 +31,11 @@
     align-items: center;
     width: 80%;
 }
+
+.nav-items a {
+    color: black;
+}
+.nav-items a:hover {
+    color: red;
+}
 </style>
